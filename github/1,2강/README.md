@@ -1,5 +1,7 @@
+git 1, 2강 과제
+
 1. "본인 이름" 디렉토리 만들기
-2. "본인 이름" 디텍토리에서 git init
+2. git init
 3. "본인 이름" 디렉토리에 2024_summer.yaml 파일 생성
 4. 1차 커밋 실행 (commit message: "FIRST COMMIT")
 5. members에 자신의 이름을 추가해 2차 커밋 실행 (commit message: "ADD ME")
