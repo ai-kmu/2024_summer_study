@@ -7,14 +7,11 @@ class Solution:
         iter = 0
         for i in s :
             iter += 1
-            # hash
-            index = ord(i) - ord('a')
-            if a.get(index) != None :
-                if start < a.get(index) :
-                    start = a.get(index)
+            if a.get(i) != None :
+                if start < a.get(i) :
+                    start = a.get(i)
             end += 1
-            a[index] = iter
+            a[i] = iter
             res = max(res, end - start)
-            
-
         return res
+
