@@ -9,12 +9,9 @@ class Solution(object):
     """
     def permute(self, nums):
         result = []  # 반환 값 저장
-        if len(nums) < 3:  # 원소가 3개 미만인 경우
-            if len(nums) == 2:  # 2개인 경우
-                result = [nums, nums[::-1]]
-            else:  # 1개 이하인 경우
-                result = [nums]
-        else:  # 원소가 3개 이상인 경우 
+        if len(nums) < 2:  # 원소가 2개 미만인 경우
+            result = [nums]
+        else:  # 원소가 2개 이상인 경우 
             # 앞자리 첫번째 원소만 바꾸고 남은 원소의 경우에 수를 더해 줌
             for idx, fn in enumerate(nums):  
                 tmp = nums[idx+1:] + nums[:idx]  # 남은 원소로 이루어진 list
@@ -30,6 +27,6 @@ class Solution(object):
     '''
     # 같은 내용 한 줄 버전 두둥
     def permute(self, nums):
-        return [nums, nums[::-1]] if len(nums) == 2 else [nums] if len(nums) < 3 else [[fn] + l for idx, fn in enumerate(nums) for l in self.permute( nums[idx+1:] + nums[:idx])] 
+        return [nums] if len(nums) < 2 else [[fn] + l for idx, fn in enumerate(nums) for l in self.permute( nums[idx+1:] + nums[:idx])] 
     '''
 
