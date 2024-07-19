@@ -19,8 +19,17 @@ class Solution(object):
             for idx, fn in enumerate(nums):  
                 tmp = nums[idx+1:] + nums[:idx]  # 남은 원소로 이루어진 list
                 tmpList = self.permute(tmp)
-                for l in tmpList:
-                    result.append([fn] + l)
+                
+                # 합치기
+                result += list(map(lambda l: [fn] + l, tmpList))
+                # result += [[fn] + l for l in tmpList]
             
         return result
+        
+        
+    '''
+    # 같은 내용 한 줄 버전 두둥
+    def permute(self, nums):
+        return [nums, nums[::-1]] if len(nums) == 2 else [nums] if len(nums) < 3 else [[fn] + l for idx, fn in enumerate(nums) for l in self.permute( nums[idx+1:] + nums[:idx])] 
+    '''
 
