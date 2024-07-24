@@ -1,41 +1,25 @@
 class Solution:
-    
-    def __init__(self):
-        self.depth = 0
-        self.tmp = []
-        self.input = []
-        self.visited = [False] * 7 
-        self.ans = []
-
-    def recur(self, num, index):
-        if(num == self.depth):
-            self.ans.append(self.tmp[:])
-            return
-
-        for i in range(self.depth):
-            if self.visited[i] == True:
-                continue
-            
-            self.tmp.append(self.input[i])
-            self.visited[i] = True
-            self.recur(num + 1, i)
-            self.visited[i] = False
-            self.tmp.pop()
-
         
     def permute(self, nums: List[int]) -> List[List[int]]:
         
-        self.result = []
-        self.depth = len(nums)
-        self.input = nums
+        tmp = []
+        result = []
+        depth = len(nums)
+        visited = [False] * 10
 
-        for i in range(self.depth):
-            self.tmp = []
-            self.tmp.append(self.input[i])
-            self.visited[i] = True
-            self.recur(1 , i)
-            self.visited[i] = False
+        def recur(num):
+            if(num == depth):
+                result.append(tmp[:])
+                return
+            
+            for i in range(depth):
+                if visited[i]: continue
+                visited[i] = True
+                tmp.append(nums[i])
+                recur(num + 1)
+                tmp.pop()
+                visited[i] = False
+        
+        recur(0)
 
-        print(self.ans)
-
-        return self.ans
+        return result
