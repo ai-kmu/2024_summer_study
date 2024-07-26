@@ -1,5 +1,5 @@
 Git 4강 과제
-  1. git 3강에서 만든 파일에서 진행
+  1. git 3강 과제에서 만든 파일에서 진행 (없을 경우 아래의 파일에서 진행)
   2. Github에 자신의 이름으로 레포지토리 생성 후, local과 연결
   3. local에서 members에 Ddobot 추가 후, 커밋
   4. 원격에서 members에 Pingu 추가 후, 커밋
@@ -10,3 +10,16 @@ Git 4강 과제
   9. git log --all --decorate --oneline --graph 결과 캡쳐 후 제출
 	
 	  * 총 제출 파일 2개
+
+
+2024_summer.yaml 파일은 다음과 같다.
+
+team: 2024_summer
+
+manager: zzanggu
+
+members:
+
+yuri
+cheolsu
+hunni
