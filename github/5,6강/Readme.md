@@ -3,16 +3,17 @@
   
 2. 본인 이름(ex)byeongin) 폴더 생성 후
 
-   global username 나온 화면을 capture한 사진,
-   
-   로컬 username을 이름의 역순(ex)nignoeyb)으로 바꾼 뒤 결과 화면을 capture해서
+   global username 나온 화면, 로컬 username을 이름의 역순(ex)nignoeyb)으로 바꾼 뒤
+
+   결과 화면 둘 다 나오게 capture해서
    
    두 사진 push하기 (hint. fetch 후 fastforward 한 뒤 push해서 올리기)
 
    
-3. 깃허브 웹사이트에서 commit내역에 "이름의 역순"으로 된 사용자로 커밋한 내역 capture하기
+4. 깃허브 웹사이트에서 commit내역에 "이름의 역순"으로 된 사용자로 커밋한 내역 capture하기
 
    
-4. 폴더에 올리기
+5. 폴더에 올리기
    
-총 사진 3장 (+ 로컬 사용자 이름 다시 취소하는 명령어 git config --unset user.name)
+총 사진 2장 (+ 로컬 사용자 이름 다시 취소하는 명령어 git config --unset user.name)
+byeongin 참고
