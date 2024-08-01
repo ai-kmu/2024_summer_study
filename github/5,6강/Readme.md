@@ -7,7 +7,7 @@
 
    결과 화면 둘 다 나오게 capture해서
    
-   두 사진 push하기 (hint. fetch 후 fastforward 한 뒤 push해서 올리기)
+   두 사진 본인 이름 폴더에 넣어서 push하기 (hint. fetch 후 fastforward 한 뒤 push해서 올리기)
 
    
 4. 깃허브 웹사이트에서 commit내역에 "이름의 역순"으로 된 사용자로 커밋한 내역 capture하기
