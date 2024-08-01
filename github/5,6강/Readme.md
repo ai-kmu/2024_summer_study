@@ -7,7 +7,7 @@
    
    본인 이름 폴더에 넣어서 push하기 (hint. fetch 후 fastforward 한 뒤 push해서 올리기)
 
-3. terminal이나 bash나 vs사용해서 push한 사진 capture해서 본인 이름 폴더 올리기
+3. terminal이나 bash나 vs사용해서 push한 사진 capture해서 본인 이름 폴더에 올리기
 
 총 사진 2장 
 
