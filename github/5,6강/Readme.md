@@ -16,4 +16,5 @@
 5. 폴더에 올리기
    
 총 사진 2장 (+ 로컬 사용자 이름 다시 취소하는 명령어 git config --unset user.name)
+
 byeongin 참고
