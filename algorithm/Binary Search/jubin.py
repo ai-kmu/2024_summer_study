@@ -2,8 +2,6 @@ class Solution(object):
     def search(self, nums, target):
         import math
 
-        pivot = len(nums) - 1
-
         def find_pivot(nums, left, right):
             
             if left == right:
@@ -17,6 +15,7 @@ class Solution(object):
                 return find_pivot(nums, left, mid)
 
         def binary_search(nums, target, left, right):
+            
             if left > right:
                 return -1
             
