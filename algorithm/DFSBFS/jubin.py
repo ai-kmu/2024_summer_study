@@ -14,22 +14,24 @@ class Solution(object):
         result = []
         num_list = []
 
-        def dfs(root, targetSum):
+        def dfs(root, targetSum, current_sum):
             
             num_list.append(root.val)
+            current_sum += root.val
 
             if root.left is None and root.right is None:
-                if sum(num_list) == targetSum:
+                if current_sum == targetSum:
                     result.append(num_list[:])
 
             else:
                 if root.left is not None:
-                    dfs(root.left, targetSum)
+                    dfs(root.left, targetSum, current_sum)
                 if root.right is not None:
-                    dfs(root.right, targetSum)
+                    dfs(root.right, targetSum, current_sum)
                 
             num_list.pop()
+            current_sum -= root.val
             
-        dfs(root, targetSum)
+        dfs(root, targetSum, 0)
 
         return result
