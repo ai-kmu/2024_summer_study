@@ -1,8 +1,8 @@
 git 11강 과제
 
-오류가 발생한 지점 찾아내기
-예제 파일에서 진행
-https://www.yalco.kr/zips/lectures/git-github-dive/git-bisect.zip
+- 오류가 발생한 지점 찾아내기
+- 예제 파일에서 진행
+- https://www.yalco.kr/zips/lectures/git-github-dive/git-bisect.zip
 
 1. git bisect start
 2. git bisect bad
