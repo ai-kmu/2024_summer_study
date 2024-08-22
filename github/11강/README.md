@@ -1,3 +1,5 @@
+git 11강 과제
+
 - git bisect start
 - git bisect bad
 - git checkout (v3 - suspicious)
