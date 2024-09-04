@@ -12,3 +12,5 @@ fork 할 repository https://github.com/Josungjun/MynameisSungjun
 2. pull&request 후 (fork한 repository)에 issue 등록해서, README.md 에 본인 이름 올려달라고 요청하기
 
 해당 pull request 요청 한 것, issue 올린 것 각자 캡처 하여 제출, 총 2개의 스크린샷 제출
+
+![Screenshot from 2024-09-04 18-42-44](https://github.com/user-attachments/assets/24bfe0dd-0217-437e-adaf-0f11feffc46d)
