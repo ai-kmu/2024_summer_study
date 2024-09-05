@@ -13,4 +13,5 @@ fork 할 repository https://github.com/Josungjun/MynameisSungjun
 
 해당 pull request 요청 한 것, issue 올린 것 각자 캡처 하여 제출, 총 2개의 스크린샷 제출
 
-![Screenshot from 2024-09-04 18-42-44](https://github.com/user-attachments/assets/24bfe0dd-0217-437e-adaf-0f11feffc46d)
+![Screenshot from 2024-09-05 16-23-54](https://github.com/user-attachments/assets/debe9637-722a-4473-bb3a-2d0f43212ed2)
+
